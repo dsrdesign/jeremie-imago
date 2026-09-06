@@ -3,7 +3,7 @@ import { FlaskConical, GraduationCap, Rocket, Globe, Mail } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { ButtonLink } from "@/components/ui/button-link";
 import { Chip } from "@/components/ui/chip";
-import { ImagePlaceholder } from "@/components/ui/image-placeholder";
+import { ImageOrPlaceholder } from "@/components/ui/image-or-placeholder";
 import { profile, skillGroups, formations, projets, experiences } from "@/lib/content";
 
 /* ── Déco SVG — cercle dégradé illustratif ── */
@@ -129,7 +129,9 @@ export default function Home() {
               <div className="relative">
                 {/* Cadre décoratif décalé */}
                 <div className="absolute -bottom-3 -right-3 h-full w-full rounded-[var(--radius-xl)] border-2 border-red-200" aria-hidden />
-                <ImagePlaceholder
+                <ImageOrPlaceholder
+                  slug="accueil"
+                  index={1}
                   className="relative z-10 h-[420px] w-[320px]"
                   label="Photo portrait"
                 />
@@ -145,9 +147,9 @@ export default function Home() {
           <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-16">
             {/* Photo "en action" */}
             <div className="grid grid-cols-2 gap-3 lg:w-2/5 shrink-0">
-              <ImagePlaceholder className="col-span-2 h-52" label="En formation" />
-              <ImagePlaceholder className="h-36" label="Atelier" />
-              <ImagePlaceholder className="h-36" label="Produits" />
+              <ImageOrPlaceholder slug="accueil" index={2} className="col-span-2 h-52" label="En formation" />
+              <ImageOrPlaceholder slug="accueil" index={3} className="h-36" label="Atelier" />
+              <ImageOrPlaceholder slug="accueil" index={4} className="h-36" label="Produits" />
             </div>
 
             {/* Texte */}

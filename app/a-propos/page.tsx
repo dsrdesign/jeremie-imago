@@ -3,7 +3,7 @@ import { Mail, GraduationCap, FlaskConical, Briefcase } from "lucide-react";
 import { Container } from "@/components/ui/container";
 import { Chip } from "@/components/ui/chip";
 import { ButtonLink } from "@/components/ui/button-link";
-import { ImagePlaceholder } from "@/components/ui/image-placeholder";
+import { ImageOrPlaceholder } from "@/components/ui/image-or-placeholder";
 import { profile, skillGroups } from "@/lib/content";
 
 export const metadata: Metadata = {
@@ -86,7 +86,9 @@ export default function AProposPage() {
             <div className="hidden shrink-0 lg:block">
               <div className="relative">
                 <div className="absolute -bottom-3 -left-3 h-full w-full rounded-[var(--radius-xl)] border-2 border-violet-200" aria-hidden />
-                <ImagePlaceholder
+                <ImageOrPlaceholder
+                  slug="a-propos"
+                  index={1}
                   className="relative z-10 h-[380px] w-[300px]"
                   label="Photo portrait"
                 />
@@ -105,8 +107,8 @@ export default function AProposPage() {
               <p className="mt-4 max-w-2xl text-lg leading-relaxed text-foreground">{profile.bio}</p>
               {/* Photo "en action" */}
               <div className="mt-8 grid grid-cols-2 gap-3">
-                <ImagePlaceholder className="h-48" label="Sur le terrain" />
-                <ImagePlaceholder className="h-48" label="En formation" />
+                <ImageOrPlaceholder slug="a-propos" index={2} className="h-48" label="Sur le terrain" />
+                <ImageOrPlaceholder slug="a-propos" index={3} className="h-48" label="En formation" />
               </div>
             </div>
 

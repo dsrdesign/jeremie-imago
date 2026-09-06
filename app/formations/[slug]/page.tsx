@@ -116,7 +116,7 @@ export default async function FormationDetailPage({ params }: Props) {
                   Galerie photos
                 </h2>
                 <div className="mt-4">
-                  <PhotoGallery label={formation.organisation} />
+                  <PhotoGallery label={formation.organisation} slug={slug} />
                 </div>
               </div>
             </div>

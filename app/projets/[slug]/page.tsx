@@ -92,7 +92,7 @@ export default async function ProjetDetailPage({ params }: Props) {
                   Galerie photos
                 </h2>
                 <div className="mt-4">
-                  <PhotoGallery label={projet.title} />
+                  <PhotoGallery label={projet.title} slug={slug} />
                 </div>
               </div>
             </div>
