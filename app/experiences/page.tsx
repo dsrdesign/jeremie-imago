@@ -52,8 +52,7 @@ export default function ExperiencesPage() {
             Parcours professionnel
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-foreground-muted">
-            Un parcours pluridisciplinaire alliant direction, formation, formulation cosmétique et
-            conseil — ancré dans les réalités du terrain au Cameroun.
+            Direction, formation, formulation cosmétique et conseil : un parcours ancré dans les réalités du terrain au Cameroun.
           </p>
         </Container>
       </section>

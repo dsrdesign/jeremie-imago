@@ -61,8 +61,7 @@ export default function ProjetsPage() {
             Projets &amp; Réalisations
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-foreground-muted">
-            Des produits formulés, testés et produits concrètement — du savon au charbon activé aux jus
-            naturels, en passant par la production de charbon.
+            Savon au charbon activé, jus naturels, production de charbon : des réalisations concrètes, de la formule au produit fini.
           </p>
         </Container>
       </section>

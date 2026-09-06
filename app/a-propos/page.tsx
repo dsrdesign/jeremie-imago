@@ -83,13 +83,13 @@ export default function AProposPage() {
             </div>
 
             {/* Photo portrait */}
-            <div className="hidden shrink-0 lg:block">
-              <div className="relative">
+            <div className="shrink-0 lg:order-last">
+              <div className="relative mx-auto w-fit">
                 <div className="absolute -bottom-3 -left-3 h-full w-full rounded-[var(--radius-xl)] border-2 border-violet-200" aria-hidden />
                 <ImageOrPlaceholder
                   slug="a-propos"
                   index={1}
-                  className="relative z-10 h-[380px] w-[300px]"
+                  className="relative z-10 h-[240px] w-[185px] sm:h-[320px] sm:w-[245px] lg:h-[380px] lg:w-[300px]"
                   label="Photo portrait"
                 />
               </div>

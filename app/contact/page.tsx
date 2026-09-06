@@ -91,8 +91,7 @@ export default function ContactPage() {
             Travaillons ensemble
           </h1>
           <p className="mt-4 max-w-xl text-base leading-relaxed text-foreground-muted">
-            Formation sur mesure, accompagnement à la formulation, conseil entrepreneurial — je suis disponible
-            pour échanger sur votre projet.
+            Formation sur mesure, accompagnement à la formulation, conseil entrepreneurial : je suis disponible pour échanger sur votre projet.
           </p>
         </Container>
       </section>

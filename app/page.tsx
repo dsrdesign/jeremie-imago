@@ -125,14 +125,13 @@ export default function Home() {
             </div>
 
             {/* Photo portrait */}
-            <div className="hidden shrink-0 lg:block">
-              <div className="relative">
-                {/* Cadre décoratif décalé */}
+            <div className="shrink-0 lg:order-last">
+              <div className="relative mx-auto w-fit">
                 <div className="absolute -bottom-3 -right-3 h-full w-full rounded-[var(--radius-xl)] border-2 border-red-200" aria-hidden />
                 <ImageOrPlaceholder
                   slug="accueil"
                   index={1}
-                  className="relative z-10 h-[420px] w-[320px]"
+                  className="relative z-10 h-[260px] w-[200px] sm:h-[340px] sm:w-[260px] lg:h-[420px] lg:w-[320px]"
                   label="Photo portrait"
                 />
               </div>
