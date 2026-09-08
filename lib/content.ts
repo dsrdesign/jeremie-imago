@@ -100,7 +100,7 @@ export const experiences: Experience[] = [
   },
   {
     id: "club-biotech",
-    role: "Président du Club de Biotechnologie",
+    role: "Président du Club Biotechnologie",
     company: "Université de Douala",
     type: "Associatif",
     period: "2020 – 2022",
@@ -136,7 +136,7 @@ export const formations: Formation[] = [
     lieu: "Cameroun",
     year: "2025 – 2026",
     shortDescription: "Accompagnement pratique des étudiantes en Technologie et Pratiques Hygiéniques.",
-    longDescription: "Formation et accompagnement pratique d'étudiantes dans le domaine des Technologie et Pratiques Hygiéniques. Sessions alliant théorie et pratique pour renforcer les compétences techniques et professionnelles.",
+    longDescription: "Formation et accompagnement pratique d'étudiantes dans le domaine de la Biotechnologie et Pratiques Hygiéniques. Sessions alliant théorie et pratique pour renforcer les compétences techniques et professionnelles.",
   },
   {
     id: "bankim-2e-edition",
@@ -192,7 +192,6 @@ export type Projet = {
   id: string;
   title: string;
   category: string;
-  year: string;
   shortDescription: string;
   longDescription: string;
   role: string;
@@ -204,7 +203,6 @@ export const projets: Projet[] = [
     id: "savon-noir-charbon",
     title: "Savon noir au charbon activé",
     category: "Formulation & Production",
-    year: "2023 – 2024",
     shortDescription: "Responsable projet et production d'un savon de toilette à base de charbon activé.",
     longDescription: "Conception, formulation et supervision de la production d'un savon noir de toilette enrichi au charbon activé. Projet mené de la conception de la formule jusqu'à la production en série, en assurant le respect des bonnes pratiques de fabrication, la qualité du produit fini et la mise en place d'une chaîne de production opérationnelle.",
     role: "Responsable projet & production",
@@ -214,7 +212,6 @@ export const projets: Projet[] = [
     id: "jus-naturels",
     title: "Production de jus naturels",
     category: "Transformation agroalimentaire",
-    year: "2023",
     shortDescription: "Participation à la production de jus naturels multisaveurs, de la préparation au conditionnement.",
     longDescription: "Participation active à la production de jus naturels aux différentes saveurs. Prise en charge des étapes allant de la préparation des matières premières au conditionnement du produit fini, en veillant au respect des bonnes pratiques de production (BPP) et à la qualité constante du produit livré au marché.",
     role: "Producteur — préparation à conditionnement",
@@ -224,7 +221,6 @@ export const projets: Projet[] = [
     id: "charbon-active",
     title: "Production de charbon activé",
     category: "Transformation",
-    year: "2022 – 2023",
     shortDescription: "Participation au processus de production de charbon activé, de la matière première au produit final.",
     longDescription: "Implication dans le processus complet de production de charbon activé : préparation des matières premières, traitement thermique, activation et contrôle des différentes étapes de transformation jusqu'à l'obtention du produit final conforme aux spécifications. Expérience qui a nourri l'expertise en formulation de produits intégrant le charbon activé.",
     role: "Opérateur de production",

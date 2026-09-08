@@ -51,8 +51,7 @@ export default async function ProjetDetailPage({ params }: Props) {
           </Link>
 
           <div className="mt-6 flex flex-wrap items-center gap-2">
-            <Chip variant="red">{projet.year}</Chip>
-            <Chip>{projet.category}</Chip>
+            <Chip variant="red">{projet.category}</Chip>
           </div>
 
           <h1 className="mt-4 max-w-2xl text-3xl font-bold leading-snug text-foreground sm:text-4xl">
@@ -104,10 +103,6 @@ export default async function ProjetDetailPage({ params }: Props) {
                   Informations
                 </h3>
                 <dl className="mt-4 flex flex-col gap-4">
-                  <div>
-                    <dt className="text-xs text-foreground-muted">Période</dt>
-                    <dd className="mt-0.5 font-semibold text-foreground">{projet.year}</dd>
-                  </div>
                   <div>
                     <dt className="text-xs text-foreground-muted">Catégorie</dt>
                     <dd className="mt-0.5 font-semibold text-foreground">{projet.category}</dd>

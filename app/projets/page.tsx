@@ -82,7 +82,7 @@ export default function ProjetsPage() {
                     <FlaskConical size={22} aria-hidden />
                   </div>
                   <Chip variant={(CATEGORY_COLORS[projet.category] as "red" | "violet" | "default") ?? "default"}>
-                    {projet.year}
+                    {projet.category}
                   </Chip>
                 </div>
 

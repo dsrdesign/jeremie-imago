@@ -70,7 +70,7 @@ function ProjetCard({ projet }: { projet: typeof projets[0] }) {
         <span className="inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-[var(--radius-sm)] bg-red-25 text-red-500">
           <FlaskConical size={18} aria-hidden />
         </span>
-        <Chip variant="red">{projet.year}</Chip>
+        <Chip variant="red">{projet.category}</Chip>
       </div>
       <div>
         <h3 className="font-semibold text-foreground leading-snug">{projet.title}</h3>
