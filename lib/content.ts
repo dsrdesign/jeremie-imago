@@ -139,6 +139,15 @@ export const formations: Formation[] = [
     longDescription: "Formation et accompagnement pratique d'étudiantes dans le domaine de la Biotechnologie et Pratiques Hygiéniques. Sessions alliant théorie et pratique pour renforcer les compétences techniques et professionnelles.",
   },
   {
+    id: "bankim-1e-edition",
+    title: "1re édition — Formation en entrepreneuriat et transformation des matières premières locales",
+    organisation: "Programme GIC IFTA",
+    lieu: "Commune de Bankim, Mayo-Banyo, Adamaoua",
+    year: "Février 2024",
+    shortDescription: "Première édition du programme de formation en entrepreneuriat et transformation des ressources locales dans la commune de Bankim.",
+    longDescription: "Première édition du programme de formation en entrepreneuriat et transformation des matières premières locales dans la commune de Bankim, département du Mayo-Banyo, région de l'Adamaoua, au Cameroun. Programme destiné à renforcer les capacités entrepreneuriales des bénéficiaires en valorisant les ressources disponibles localement.",
+  },
+  {
     id: "bankim-2e-edition",
     title: "2e édition — Formation en entrepreneuriat et transformation des matières premières locales",
     organisation: "Programme GIC IFTA",
